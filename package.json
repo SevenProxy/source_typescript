@@ -1,0 +1,32 @@
+{
+  "name": "hidra",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "the api client",
+  "main": "index.js",
+  "author": "proxy",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "tsx watch index.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.1",
+    "pino": "^8.16.1",
+    "pino-http": "^8.5.1",
+    "pino-pretty": "^10.2.3",
+    "redis": "^4.6.7",
+    "socket.io": "^4.7.2",
+    "tsx": "^4.1.2",
+    "typescript": "^5.2.2"
+  }
+}
