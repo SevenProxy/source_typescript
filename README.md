@@ -45,7 +45,7 @@ yarn start
 
 <h2 id="routes">📍 API Endpoints</h2>
 
-Here you can list the main routes of your API, and what are their expected request bodies.
+As rotas que API tem por padrão.
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------
@@ -85,11 +85,11 @@ O projeto `source_typescript` é uma colaboração dinâmica e diversificada que
 
 1. `git clone https://github.com/Fernanda-Kipper/text-editor.git`
 2. `git checkout -b feature/NAME`
-3. Follow commit patterns
-4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
+3. Siga os padrões de commit
+4. Abra um Pull Request explicando o problema resolvido ou recurso realizado, se existir, anexe screenshot das modificações visuais e aguarde a revisão!
 
-<h3>Documentations that might help</h3>
+<h3>Documentações que podem ajudar</h3>
 
-[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+[📝 Como criar uma solicitação pull](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
 
-[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+[💾 Padrão de commit](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
