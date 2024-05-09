@@ -20,7 +20,7 @@
 
 <h2 id="started">🚀 Getting started</h2>
 
-> **`yarn start` para iniciar.**
+> **`yarn start` para iniciar o projeto localmente.**
 
 <h3>Prerequisites</h3>
 
@@ -49,34 +49,16 @@ Here you can list the main routes of your API, and what are their expected reque
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>GET /authenticate</kbd>     | retrieves user info see [response details](#get-auth-detail)
-| <kbd>POST /authenticate</kbd>     | authenticate user into the api see [request details](#post-auth-detail)
+| <kbd>GET /api-V1/log</kbd>     | ver se API funciona normalmente, veja [detalhes da resposta](#get-auth-detail)
 
-<h3 id="get-auth-detail">GET /authenticate</h3>
-
-**RESPONSE**
-```json
-{
-  "name": "Fernanda Kipper",
-  "age": 20,
-  "email": "her-email@gmail.com"
-}
-```
-
-<h3 id="post-auth-detail">POST /authenticate</h3>
-
-**REQUEST**
-```json
-{
-  "username": "fernandakipper",
-  "password": "4444444"
-}
-```
+<h3 id="get-auth-detail">GET /api-V1/log</h3>
 
 **RESPONSE**
 ```json
 {
-  "token": "OwoMRHsaQwyAgVoc3OXmL1JhMVUYXGGBbCTK0GBgiYitwQwjf0gVoBmkbuyy0pSi"
+  "value": "true",
+  "message": "OI",
+  "data": {"user": "proxy", "password": "oi"}
 }
 ```
 
